@@ -1,0 +1,1 @@
+CucumberWebsocketExample::Application.config.secret_token = 'be11c622404ff90271be4be42a2fb85d601790d40bb789301855c8287ac9388c39a237f81540b48e95c1ba38b1616b1ed4a456f08045bc2744e36008e516861e'
