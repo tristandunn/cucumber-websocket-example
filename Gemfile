@@ -1,6 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.1'
+gem 'thin',         :require => false
+gem 'em-websocket', :require => false
 
 group :development do
   gem 'rspec-rails'
