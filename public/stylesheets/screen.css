@@ -1,0 +1,121 @@
+p,
+h1,
+body,
+html,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+footer,
+header,
+section {
+  display: block;
+}
+
+body {
+  background: #222;
+  color: #FFF;
+  font-size: 12px;
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+body > header {
+  background: #0A780A;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0A780A), to(#0A580A));
+  color: #FFF;
+  height: 48px;
+}
+
+body > header h1 {
+  font-size: 28px;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-weight: 100;
+  line-height: 47px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+#new_user {
+  background: #EEE;
+  color: #000;
+  width: 320px;
+  margin: 32px auto;
+  padding: 32px;
+  -moz-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+  -webkit-border-radius: 4px;
+}
+
+#new_user p {
+  color: #982A2A;
+  padding: 6px 0 0 2px;
+  font-size: 11px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+#new_user label {
+  font-size: 14px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-weight: 300;
+  display: block;
+  -webkit-user-select: none;
+}
+
+#user_name {
+  background: #FFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#CCC), to(#FFF), color-stop(0.1, #FFF));
+  color: #222;
+  width: 306px;
+  margin: 4px 0 0 0;
+  padding: 8px;
+  border: 1px solid #98a0a0;
+  outline: 0;
+  font-size: 14px;
+  border-radius: 4px;
+  display: block;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+#events {
+  position: absolute;
+  top: 64px;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+  background: #FFF;
+  color: #555;
+}
+
+#events > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+#events table {
+  width: 100%;
+  border-bottom: 1px solid #DADADA;
+  border-spacing: 0;
+}
+
+#events tr:first-child td {
+  border-top: 0;
+}
+
+#events td {
+  background: #EEE;
+  color: #444;
+  padding: 6px 16px;
+  border-top: 1px solid #DADADA;
+  font-size: 11px;
+}
