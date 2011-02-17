@@ -1,3 +1,5 @@
+require 'net/http'
+
 class Event
   def self.publish(event)
     http = Net::HTTP.new('127.0.0.1', 4000)
