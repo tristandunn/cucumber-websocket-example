@@ -1,19 +1,19 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.1'
-gem 'thin',         :require => false
-gem 'em-websocket', :require => false
+gem 'em-websocket', '0.2.0', :require => false
+gem 'rails',        '3.0.4'
+gem 'thin',         '1.2.7', :require => false
 
 group :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.5.0'
 end
 
 group :test do
-  gem 'bourne'
-  gem 'shoulda'
-  gem 'capybara', '0.4.0.rc'
-  gem 'rspec-rails'
-  gem 'cucumber-rails'
-  gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'bourne',             '1.0'
+  gem 'capybara',           '0.4.1.2'
+  gem 'cucumber-rails',     '0.3.2'
+  gem 'database_cleaner',   '0.6.3'
+  gem 'factory_girl_rails', '1.0.1'
+  gem 'rspec-rails',        '2.5.0'
+  gem 'shoulda',            '2.11.3'
 end
