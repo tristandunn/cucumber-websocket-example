@@ -1,6 +1,5 @@
-var
-socket = new WebSocket('ws://localhost:8080/');
-socket.onmessage = function(event) {
+window.socket = new WebSocket('ws://localhost:8080/');
+window.socket.onmessage = function(event) {
   var message = $.parseJSON(event.data);
 
   $('#events table')
