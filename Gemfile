@@ -10,7 +10,7 @@ end
 
 group :test do
   gem 'bourne',             '1.0'
-  gem 'capybara',           '0.4.1.2'
+  gem 'capybara',           :git => 'git://github.com/jnicklas/capybara.git'
   gem 'cucumber-rails',     '0.3.2'
   gem 'database_cleaner',   '0.6.3'
   gem 'factory_girl_rails', '1.0.1'
