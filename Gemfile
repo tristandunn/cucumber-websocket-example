@@ -1,19 +1,18 @@
 source 'http://rubygems.org'
 
-gem 'em-websocket', '0.2.0', :require => false
-gem 'rails',        '3.0.4'
-gem 'thin',         '1.2.7', :require => false
+gem 'em-websocket', '0.3.0',  :require => false
+gem 'rails',        '3.0.9'
+gem 'thin',         '1.2.11', :require => false
 
 group :development do
-  gem 'rspec-rails', '2.5.0'
+  gem 'rspec-rails', '2.6.1'
 end
 
 group :test do
   gem 'bourne',             '1.0'
-  gem 'capybara',           :git => 'git://github.com/jnicklas/capybara.git'
-  gem 'cucumber-rails',     '0.3.2'
-  gem 'database_cleaner',   '0.6.3'
+  gem 'capybara',           '1.0.0'
+  gem 'cucumber-rails',     '1.0.2'
   gem 'factory_girl_rails', '1.0.1'
-  gem 'rspec-rails',        '2.5.0'
-  gem 'shoulda',            '2.11.3'
+  gem 'rspec-rails',        '2.6.1'
+  gem 'shoulda-matchers',   '1.0.0.beta2'
 end

@@ -1,4 +1,4 @@
-require 'lib/push'
+require './lib/push'
 
 module Push
   class Instance

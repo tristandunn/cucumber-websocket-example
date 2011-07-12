@@ -1,2 +1,2 @@
-require 'push/application'
-require 'push/server'
+require './lib/push/application'
+require './lib/push/server'
