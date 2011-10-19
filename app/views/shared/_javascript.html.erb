@@ -2,9 +2,8 @@
 if (typeof WebSocket == 'undefined') {
   WEB_SOCKET_SWF_LOCATION = '<%= flash_movie_path "WebSocketMain.swf" %>';
 
-  document.write('<script src="<%= javascript_path "vendor/web-socket-js/FABridge" %>"><\/script>');
-  document.write('<script src="<%= javascript_path "vendor/web-socket-js/swfobject" %>"><\/script>');
-  document.write('<script src="<%= javascript_path "vendor/web-socket-js/web_socket" %>"><\/script>');
+  document.write('<script src="<%= javascript_path "vendor/web-socket-js/swfobject.js" %>"><\/script>');
+  document.write('<script src="<%= javascript_path "vendor/web-socket-js/web_socket.js" %>"><\/script>');
 }
 </script>
 <%= javascript_include_tag_for_jquery %>

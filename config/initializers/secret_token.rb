@@ -1,1 +1,7 @@
-CucumberWebsocketExample::Application.config.secret_token = 'be11c622404ff90271be4be42a2fb85d601790d40bb789301855c8287ac9388c39a237f81540b48e95c1ba38b1616b1ed4a456f08045bc2744e36008e516861e'
+# Be sure to restart your server when you modify this file.
+
+# Your secret key for verifying the integrity of signed cookies.
+# If you change this key, all old signed cookies will become invalid!
+# Make sure the secret is at least 30 characters and all random,
+# no regular words or you'll be exposed to dictionary attacks.
+CucumberWebsocketExample::Application.config.secret_token = 'c6383698c31ddd853374fc5c3f1c5c0d5ca5b5996d28e163388675fbd7ea28b4470b7e336a9a4c4afe8fa522a2adee882fd6c343f4f0785e30476ee41f69f164'
