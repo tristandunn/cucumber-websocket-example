@@ -1,6 +1,6 @@
 Then /^([^I]+) should see "([^"]*)"$/ do |name, text|
   using_session(name) do
-    Then %{I should see "#{text}"}
+    step %{I should see "#{text}"}
   end
 end
 
