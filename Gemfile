@@ -10,7 +10,7 @@ end
 
 group :test do
   gem 'bourne',             '1.0'
-  gem 'cucumber-rails',     '1.2.0', :require => false
+  gem 'cucumber-rails',     '1.2.1', :require => false
   gem 'factory_girl_rails', '1.4.0'
   gem 'rspec-rails',        '2.7.0'
   gem 'shoulda-matchers',   '1.0.0'
