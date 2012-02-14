@@ -13,5 +13,6 @@ group :test do
   gem 'cucumber-rails',     '1.2.1', require: false
   gem 'factory_girl_rails', '1.6.0'
   gem 'rspec-rails',        '2.8.1'
+  gem 'selenium-webdriver', '2.14.0'
   gem 'shoulda-matchers',   '1.0.0'
 end
