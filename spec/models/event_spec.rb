@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Event, '.publish' do
-  let(:http)  { stub('HTTP', :post => true) }
+  let(:http)  { stub('HTTP', post: true) }
   let(:event) { {} }
 
   before do
