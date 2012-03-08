@@ -6,8 +6,4 @@ module ApplicationHelper
       javascript_include_tag 'vendor/jquery-1.7.1.min.js'
     end
   end
-
-  def flash_movie_path(source)
-    asset_paths.compute_public_path(source, 'flash')
-  end
 end
