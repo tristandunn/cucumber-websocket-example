@@ -1,4 +1,4 @@
-require './lib/push'
+require "./lib/push"
 
 module Push
   class Instance
@@ -9,7 +9,7 @@ module Push
     end
 
     def self.stop
-      Process.kill('QUIT', self.instance) if self.instance
+      Process.kill("QUIT", self.instance) if self.instance
     end
   end
 end
