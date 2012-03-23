@@ -9,7 +9,7 @@ An example of using Cucumber to test WebSocket interactions between two users.
 
 ## Notes
 
-* If you have the latest version of Qt you can use [capybara-webkit](https://github.com/thoughtbot/capybara-webkit) instead of Selenium.
+* The example uses [capybara-webkit](https://github.com/thoughtbot/capybara-webkit) instead of Selenium by default. If you wish to use a different driver, edit or remove `features/support/capybara.rb`.
 
 ## Credits
 
