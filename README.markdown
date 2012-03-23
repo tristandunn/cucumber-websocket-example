@@ -1,4 +1,4 @@
-# cucumber-websocket-example [![Build Status](https://secure.travis-ci.org/tristandunn/cucumber-websocket-example.png?branch=master)](http://travis-ci.org/tristandunn/cucumber-websocket-example)
+# cucumber-websocket-example [![Build Status](https://secure.travis-ci.org/tristandunn/cucumber-websocket-example.png?branch=master)](http://travis-ci.org/tristandunn/cucumber-websocket-example) [![Dependency Status](https://gemnasium.com/tristandunn/cucumber-websocket-example.png)](https://gemnasium.com/tristandunn/cucumber-websocket-example)
 
 An example of using Cucumber to test WebSocket interactions between two users.
 
