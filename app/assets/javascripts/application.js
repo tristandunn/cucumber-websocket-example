@@ -1,8 +1,11 @@
-var
-socket = window.socket = new WebSocket("ws://localhost:8080/");
-socket.onmessage = function(event) {
+window.socket = new WebSocket("ws://localhost:8080/");
+window.socket.addEventListener("message", function(event) {
   var message = $.parseJSON(event.data);
 
   $("#events table")
-    .append("<tr><td>" + message.name + " has entered the room.</td></tr>");
-};
+    .append(
+      $("<tr>").append(
+        $("<td>", { text: message.name + " has entered the room." })
+      )
+    );
+}, false);
