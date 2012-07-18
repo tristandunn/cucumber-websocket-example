@@ -2,14 +2,10 @@
 
 An example of using Cucumber to test WebSocket interactions between two users.
 
-## Running
-
-    bundle
-    rake
-
 ## Notes
 
-* The example uses [capybara-webkit](https://github.com/thoughtbot/capybara-webkit) instead of Selenium by default. If you wish to use a different driver, edit or remove `features/support/capybara.rb`.
+* If you're using [Pusher](http://pusher.com), check out [pusher-fake-example](https://github.com/tristandunn/pusher-fake-example) with utilizes [pusher-fake](https://github.com/tristandunn/pusher-fake) to avoid hitting the service.
+* The [capybara-webkit](https://github.com/thoughtbot/capybara-webkit) driver is used instead of Selenium. If you'd like a different driver, edit `features/support/capybara.rb`.
 
 ## Credits
 
