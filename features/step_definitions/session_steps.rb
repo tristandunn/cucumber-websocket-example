@@ -4,8 +4,8 @@ Given /^a user named "([^"]*)" is online$/ do |name|
     step %{I fill in "Name" with "#{name}"}
     step %{I submit the new user form}
 
-    wait_until(10) do
-      page.evaluate_script("(function() { return window.socket && window.socket.readyState == 1; })();")
+    Timeout::timeout(10) do
+      sleep(0.05) until page.evaluate_script("window.socket && window.socket.readyState == 1;")
     end
   end
 end
