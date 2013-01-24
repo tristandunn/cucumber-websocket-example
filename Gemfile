@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "em-websocket", "0.3.8", require: false
+gem "em-websocket", "0.4.0", require: false
 gem "rails",        "3.2.11"
 gem "thin",         "1.5.0", require: false
 
