@@ -1,7 +1,7 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 gem "em-websocket", "0.4.0", require: false
-gem "rails",        "3.2.11"
+gem "rails",        "3.2.12"
 gem "thin",         "1.5.0", require: false
 
 group :development do
