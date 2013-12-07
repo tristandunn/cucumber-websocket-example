@@ -9,7 +9,8 @@ An example of using Cucumber to test WebSocket interactions between two users.
 
 ## Credits
 
-* [Bernard Potocki](http://imanel.org/2010/03/cucumber-testing-for-multiple-users-continuation/)
+* Original idea by [Bernard Potocki](http://imanel.org/blog/2010/03/cucumber-testing-for-multiple-users-continuation/) in 2010.
+* [Added to Capybara](https://github.com/jnicklas/capybara/commits?author=tristandunn) in January 2011.
 
 ## License
 
